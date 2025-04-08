@@ -10,25 +10,6 @@ Spring MVC asosidagi veb-ilova. PostgreSQL bilan integratsiya qilingan bo‘lib,
 - **Tomcat**: 10+  
 - **Maven**
 
-## Tuzilma
-app-spring-mvc/
-├── src/
-│   ├── main/
-│   │   ├── java/uz/pdp/
-│   │   │   ├── controller/UserController.java
-│   │   │   ├── model/User.java
-│   │   │   └── repository/UserRepository.java
-│   │   └── webapp/WEB-INF/
-│   │       ├── view/
-│   │       │   ├── user-list.jsp
-│   │       │   └── user-form.jsp
-│   │       ├── applicationContext.xml
-│   │       ├── my-spring-servlet.xml
-│   │       └── web.xml
-├── pom.xml
-└── README.md
-
-
 ## Funksiyalar
 - `GET /users`: Foydalanuvchilar ro‘yxati  
 - `GET /users/new`: Yangi foydalanuvchi qo‘shish formasi  
